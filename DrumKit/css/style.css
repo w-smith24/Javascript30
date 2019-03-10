@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url("https://images.unsplash.com/photo-1522158637959-30385a09e0da?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ed355dbd6d0efe1d3c158d01f89d833&auto=format&fit=crop&w=500&q=60") no-repeat bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#heading {
+    font-family: 'Goblin One', cursive;
+    text-align: center;
+    font-size: 75px;
+    color: red;
+    text-shadow: 0 0 .5rem black;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.key {
+    border: .4rem solid red;
+    border-radius: 25%;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: yellow;
+    background: rgba(27, 23, 23, 0.4);
+    text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+    transform: scale(1.5);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: yellow;
+}aaaa
